@@ -80,6 +80,7 @@ Requisito: El sistema debe cifrar contraseñas con SHA-256
 clasificador-requisitos-iso25010/
 ├── data/
 │   └── raw/requisitos_ejemplo.csv
+    └── raw/RespaN Equivalence.csv
 ├── src/
 │   ├── clasificador.py          # Entrenamiento
 │   └── predecir.py              # Predicción
@@ -121,3 +122,4 @@ Este proyecto está bajo la Licencia MIT
 ---
 
 ⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub
+
