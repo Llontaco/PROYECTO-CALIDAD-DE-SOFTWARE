@@ -1,0 +1,110 @@
+ID;Project ID;Requirement;Type;ISO Category;ISO SubCategory;Equivalence PROMISE NFR
+1;16;Todos los datos introducidos podrán ser leídos, modificados o eliminados en cualquier momento.;quality;Fiabilidad;Disponibilidad;A
+2;16;Que toda la información que proporcione a la aplicación y las operaciones que realice no puedan ser consultadas por otros usuarios.;quality;Seguridad;Confidencialidad;SE
+3;16;Todos los datos personales almacenados, así como las operaciones realizadas deberán estar securizadas y/o codificadas.;quality;Seguridad;Integridad;SE
+4;16;Consulta/Edición del perfil de usuario: El usuario podrá acceder a su información personal en cualquier momento.;quality;Fiabilidad;Disponibilidad;A
+5;16;La información de los usuarios debe ser confidencial y no debe permitirse el acceso a estos por parte de terceros. ;quality;Seguridad;Confidencialidad;SE
+6;16;Todas las operaciones que realice un usuario sobre el sistema deben verificar la autenticidad y autorización que dicho usuario posee.;quality;Seguridad;No agreement;SE
+7;16;Uno de los pilares del sistema es la capacidad de ofertar un abanico de formatos que pueden incrementarse con el tiempo. Por eso, se espera del sistema que sea capaz de adaptarse a las nuevas inclusiones de formatos, sin necesidad de modificar el código.;quality;Portabilidad;Adaptabilidad;PO
+8;16;La aplicación debe presentar una interfaz simple y fácil para el usuario. ;quality;Usabilidad;Capacidad para ser usado;US
+9;16;Se proporcionarán manuales de ayuda on-line para facilitar la creación de currículums y ayuda en las funcionalidades más complejas.;quality;Usabilidad;Capacidad de aprendizaje;US
+10;17;La aplicación debe permitir al usuario hacer consultas de manera intuitiva.;quality;Usabilidad;Capacidad para ser usado;US
+11;17;La aplicación debe proporcionarle al usuario una interfaz que sea fácil de utilizar.;quality;Usabilidad;Capacidad para ser usado;US
+12;17;El acceso a la información almacenada en la estructura compacta debe ser eficiente, ya que en esta se guardan grandes cantidades de datos usando el mínimo espacio necesario.;quality;Eficiencia_de_desempeño;Utilización de recursos;PE
+13;17;Tiempos de respuesta cortos al realizar peticiones contra la estructura de compresión utilizada.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+14;18;El sistema debe permitir la autenticación de usuarios para que un usuario anónimo se registre y poder iniciar sesión como usuario registrado.;quality;Seguridad;Autenticidad;SE
+15;18;Se considera importante que la aplicación cuente con un sistema de autenticación para que los usuarios no accedan a datos que no les corresponde.;quality;Seguridad;No agreement;SE
+16;21;Securizar el gestor mediante inicio de sesión con usuario y contraseña.;quality;Seguridad;Autenticidad;SE
+17;21;La aplicación debe estar en Español, ya que el ámbito de las revistas es de habla hispana.;quality;Usabilidad;No agreement;NA
+18;21;La aplicación web accesible por el usuario debe tener un diseño minimalista y de fácil uso.;quality;Usabilidad;Estética de la interfaz de usuario;LF
+19;22;El sistema debe ofrecer la funcionalidad como se necesita. Debe minimizarse tanto la probabilidad de fallo como el número de fallos.;quality;Adecuacion_Funcional;No agreement;NA
+20;22;La aplicación deberá ser lo más fácil, cómoda e intuitiva de usar posible.;quality;Usabilidad;Capacidad para ser usado;US
+21;22;La aplicación debe hacer una buena gestión de los recursos disponibles.;quality;Eficiencia_de_desempeño;Utilización de recursos;PE
+22;22;No debe requerir mucho esfuerzo que la aplicación crezca en funcionalidades.;quality;Mantenibilidad;Capacidad para ser modificado;MN
+23;22;El sistema debe ofrecer la funcionalidad cuando se necesita.;quality;Fiabilidad;Disponibilidad;A
+24;22;Debe minimizarse la complejidad del sistema y favorecer el rendimiento.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+25;23;El sistema debe ofrecer servicio en todo momento.;quality;Fiabilidad;Disponibilidad;A
+26;23;El sistema debe ser capaz de recuperarse de los fallos sin pérdida de datos.;quality;Fiabilidad;Capacidad de recuperación;NA
+27;23;El sistema debe garantizar la seguridad en los envíos y lecturas de mensajes.;quality;Seguridad;Integridad;SE
+28;23;El sistema debe estar preparado para una alta carga de trabajo y posibles expansiones futuras.;quality;Eficiencia_de_desempeño;Capacidad;PE
+29;23;El sistema debe asegurar la correctitud y completitud de los datos almacenados en base de datos. Integridad de datos;quality;Fiabilidad;Madurez;NA
+30;24;Interfaz intuitiva. Dado que el proceso de calibración de un edificio es un proceso tedioso y propenso a errores, la interfaz de la aplicación debe ser lo más clara y concisa, ayudando al usuario en la medida de lo posible, para minimizar problemas.;quality;Usabilidad;Protección contra errores de usuario;US
+31;24;Dispositivo compacto. El dispositivo escogido debe ser lo más compacto posible, tanto por facilidad de uso para el operario, como por comodidad a la hora de transportarlo y calibrar el edificio.;quality;No agreement;No agreement;US
+32;24;Independencia de proveedor. Los datos de salida de esta aplicación, deberán tener un formato que no esté atado a un proveedor de posicionamiento concreto, pudiendo adaptarse en un futuro en función de las necesidades.;quality;Mantenibilidad;Capacidad para ser modificado;MN
+33;25;Todas las pantallas cuentan con una barra de navegación para acceder a las demás pantallas;quality;Usabilidad;Estética de la interfaz de usuario;LF
+34;25;Hay que iniciar sesión para acceder a las pantallas de administración;quality;Seguridad;Autenticidad;SE
+35;25;Las contraseñas se almacenan encriptadas;quality;Seguridad;Confidencialidad;SE
+36;25;Los campos de contraseñas deben ocultar su contenido;quality;Seguridad;Confidencialidad;SE
+37;25;La aplicación debe protegerse ante los principales ataques contra aplicaciones web;quality;Seguridad;Integridad;SE
+38;25;Debe lograr la adaptabilidad al dispositivo usado para visualizarlo (responsive);quality;Portabilidad;Adaptabilidad;PO
+39;25;Los reproducción de vídeos se muestra en formato carrusel o similar;quality;Usabilidad;Estética de la interfaz de usuario;LF
+40;25;Las noticias se visualizan en formato scroll horizontal;quality;Usabilidad;Estética de la interfaz de usuario;LF
+41;25;Todo el software usado para la realización del portal web debe ser libre;constraint;;;CONSTRAINT
+42;26;El servidor tiene que proporcionar un método para identificar los usuarios. En concreto, es necesario proporcionar la autenticación al crawler y al administrador.;quality;Seguridad;Autenticidad;SE
+43;26;La aplicación móvil debe ser sencilla y intuitiva para que el usuario pueda usar todas las funcionalidades sin ninguna complicación.;quality;Usabilidad;Capacidad para ser usado;US
+44;26;La interfaz de usuario debe ser capaz de adaptarse a los distintos tamaños que pueda tener un móvil o tablet con sistema operativo Android.;quality;Portabilidad;Adaptabilidad;PO
+45;26;Todas las partes del sistema deben ser rápidas para evitar esperas del usuario y que no suponga un tiempo excesivo el uso de sistemas ajenos.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+46;26;El sistema debe contar con algún tipo de almacenamiento que permita guardar y acceder a una gran cantidad de datos de la manera más rápida y eficiente.;quality;Eficiencia_de_desempeño;No agreement;PE
+47;26;El servidor debe ser capaz de soportar múltiples peticiones simultaneas a la API, para poder responder a la demanda de datos.;quality;Eficiencia_de_desempeño;No agreement;PE
+48;27;Permisos de acceso y modificación de fuente de datos sólo posible para administrador;quality;Seguridad;Confidencialidad;SE
+49;27;Los datos de entrada son validados, eliminando riesgos de ataques como XSS, CSRF, SQL Injection, etc;quality;Seguridad;Integridad;SE
+50;27;El tiempo de aprendizaje es escaso;quality;Usabilidad;No agreement;US
+51;27;Lla aplicación debe ser intuitiva y sencilla de utilizar;quality;Usabilidad;Capacidad para ser usado;US
+52;27;El sistema debe ofrecer unos mensajes de error que contengan una información clara y simplificada para el usuario;quality;Usabilidad;No agreement;US
+53;27;El sistema debe ser Responsive, es decir, que adapte su interfaz a diferentes dispositivos, ya sean móviles, tabletas o computadoras;quality;Portabilidad;Adaptabilidad;PO
+54;27;La aplicación no puede ser lenta, es decir, cualquier operación debe durar el menor tiempo posible en ofrecer un resultado, o mínimo, un feedback;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+55;28;La interfaz debe ser fácil de usar y el usuario tiene que entender fácilmente que hace cada componente.;quality;Usabilidad;No agreement;US
+56;28;El sistema tiene que funcionar sin fallos ;quality;Adecuacion_Funcional;Corrección funcional;NA
+57;28;El sistema tiene que estar siempre disponible.;quality;Fiabilidad;Disponibilidad;A
+58;28;Las tareas de acceso a base de datos o de red tienen que ser rápidas, no pueden existir excesivos tiempos de espera.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+59;28;Si aumenta la carga de trabajo por el aumento de usuarios, el sistema tiene que seguir funcionando correctamente.;quality;Eficiencia_de_desempeño;No agreement;PE
+60;28;El sistema tiene ser capaz de evitar en la medida de lo posible amenazas maliciosas externas.;quality;Seguridad;Confidencialidad;SE
+61;29;Sistema de registro y autenticación de usuarios de la aplicación.;quality;Seguridad;Autenticidad;SE
+62;29;La aplicación debe tener una interfaz limpia e intuitiva, que haga atractivo y sencillo su uso. ;quality;Usabilidad;Capacidad para ser usado;US
+63;29;La aplicación debe guiar al usuario y advertir sus errores.;quality;Usabilidad;Protección contra errores de usuario;US
+64;29;De modo que pueda ser adaptada a cualquier entorno. Podrán integrarse las imágenes corporativas de la población donde se ubique y permitir la modificación de los colores y tipografías.;quality;Mantenibilidad;Capacidad para ser modificado;MN
+65;29;Deben validarse los datos de usuario y la información recabada debe estar protegida.;quality;Seguridad;Integridad;SE
+66;29;La respuesta de la aplicación debe ser lo más rápida posible, incluso en condiciones desfavorables como sería la falta de internet.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+67;29;La herramienta debe permitir el aumento del número de usuarios de modo que permita un tráfico grande de usuarios.;quality;Eficiencia_de_desempeño;No agreement;PE
+68;30;El principal servicio que debe proporcionar el asistente a los estudiantes es ahorrarles tiempo, que sea más comodo preguntarle que tener que buscar por los enlaces de la web. Es de vital importancia que la elaboración de la respuesta sea en tiempo real.;quality;Adecuacion_Funcional;No agreement;NA
+69;30;Las preguntas se deben poder hacer de un modo veloz e intuitivo, tanto por teclado como por voz.;quality;Usabilidad;Capacidad para ser usado;US
+70;30;La interfaz debe integrarse de manera atractiva con la página web.;quality;Usabilidad;Estética de la interfaz de usuario;LF
+71;31;La aplicación manejará grandes cantidades de datos (habrá miles de colonias y territorios por toda España), por lo que las interacciones con la base de datos deberán ser lo más rápidas y eficientes posibles.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+72;31;Deberá crearse una interfaz gráfica fácil de usar e intuitiva. ;quality;Usabilidad;Capacidad para ser usado;US
+73;31;El contenido visual deberá ser lo más parecido posible al estilo de diseño de las aplicaciones web de SEO/birdlife. Tendrá que ser un diseño adaptable a pequeños y medianos dispositivos porque la mayoría de las veces los usuarios lo utilizarán desde un teléfono móvil.;quality;Usabilidad;Estética de la interfaz de usuario;LF
+74;31;La aplicación deberá garantizar la privacidad de los datos de los usuarios, así como utilizar un protocolo de intercambio de datos seguro. La mejor opción es utlizar HTTPS y usar un certificado ya instalado en el servidor de SEO/birdlife para garantizar la autenticidad de la página.;quality;Seguridad;No agreement;SE
+75;31;Este proyecto deberá ser fácilmente escalable para poder seguir desarrollándolo en un futuro. El catálogo de especies podrá aumentar o disminuir según las circunstancias, además de que a la aplicación se le irán añadiendo funcionalidades diferentes a lo largo del tiempo.;quality;Mantenibilidad;Capacidad para ser modificado;MN
+76;31;Se ofrecerá la opción de escoger un idioma para mostrar el contenido visual. En función de los idiomas en los que SEO tiene guardados los nombres de las especies, se decidió traducir la aplicación a: Español, Gallego, Vasco, Catalán e Inglés.;quality;Usabilidad;No agreement;NA
+77;32;Arquitectura e implementación generalizable: Desarrollar una arquitectura y una implementación que sea fácilmente aplicables a otras categorías.;quality;Portabilidad;Adaptabilidad;PO
+78;32;Reducir al máximo posible los tiempos de respuesta y que la interacción con el usuario sea ágil y sin retrasos.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+79;32;La interfaz debe ser estética.;quality;Usabilidad;Estética de la interfaz de usuario;LF
+80;32;La interfaz debe ser rápida e intuitiva.;quality;Usabilidad;No agreement;NA
+81;32;Tener en cuenta en todo momento la utilización de recursos del dispositivo móvil.;quality;Eficiencia_de_desempeño;Utilización de recursos;PE
+82;33;Seguridad en el tratamiento de datos sensibles.;quality;Seguridad;Confidencialidad;SE
+83;33;Internacionalización de toda la aplicación web.;quality;Usabilidad;Accesibilidad;US
+84;33; Implementación de forma modular para permitir escalabilidad del sistema.;quality;Mantenibilidad;Modularidad;MN
+85;33;Implementación de una interfaz eficaz y cómoda para un perfil clínico.;quality;Usabilidad;No agreement;US
+86;33;No debe tener fallos de seguridad.;quality;Seguridad;No agreement;SE
+87;33;Debe ser resistente a posibles fallos.;quality;Fiabilidad;Tolerancia a fallos;FT
+88;33;La aplicación debe estar disponible el mayor tiempo posible para poder considerarse un sistema útil.;quality;Fiabilidad;Disponibilidad;A
+89;34;La navegación a través de la página tiene que ser fluida. Por lo tanto la carga de una página no debe tardar más de 5 segundos en momentos de carga y normalmente entre 1 y 2 segundos.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+90;34;Los usuarios que vayan a utilizar la aplicación pueden tener todo tipo de experiencia informática por lo que la interfaz debe ser sencilla y amigable. Utilizando a poder ser elementos que recuerden a cómo se administran listas de reproducción en la propia aplicación de Spotify, con la que los usuarios sí estarán más familiarizados.;quality;Usabilidad;Capacidad para ser usado;US
+91;34;Es importante cifrar las conexiones para mantener la privacidad de los usuarios. Así mismo la información de las cuentas y acceso debe almacenarse de forma segura.;quality;Seguridad;No agreement;SE
+92;34;La aplicación deberá tener en cuenta los posibles errores tanto humanos como del propio sistema.  ;quality;Fiabilidad;Tolerancia a fallos;FT
+93;34;Es importante mantener la integridad de la cuenta del usuario y evitar que se borre por accidente cualquier tipo de información del usuario, ya sean listas de reproducción o canciones.;quality;Seguridad;Integridad;SE
+94;35;El sistema deberá reducir al mínimo la tasa de fallos, devolviendo siempre que sea posible los mismos resultados.;quality;Fiabilidad;No agreement;NA
+95;35;El sistema deberá ser seguro frente a amenazas externas. Los datos sensibles como información de los usuarios deben ser cifrados.;quality;Seguridad;Integridad;SE
+96;35;El sistema deberá ser fácil de usar tanto por los usuarios como por los administradores.;quality;Usabilidad;Capacidad para ser usado;US
+97;35;El sistema deberá ser capaz de reaccionar apropiadamente ante situaciones excepcionales, como picos en los niveles de carga.;quality;Fiabilidad;Tolerancia a fallos;FT
+98;35;El sistema deberá tener una alta disponibilidad. Los usuarios deberán poder acceder a los servicios la mayor parte del tiempo.;quality;Fiabilidad;Disponibilidad;A
+99;35;El sistema deberá responder de forma rápida a las peticiones del usuario reduciendo al máximo posible los tiempos de respuesta y velocidad general.;quality;Eficiencia_de_desempeño;Comportamiento temporal;PE
+100;36;El sistema debe ofrecer la funcionalidad cuando se necesita.;quality;Adecuacion_Funcional;Pertinencia funcional;NA
+101;36;El sistema debe operar según lo previsto ante la presencia de fallos.;quality;Fiabilidad;Tolerancia a fallos;FT
+102;36;El sistema debe prevenir cambios no autorizados en los datos del sistema.;quality;Seguridad;Integridad;SE
+103;36;El sistema debe ofrecer la funcionalidad como se necesita. ;quality;Adecuacion_Funcional;Completitud funcional;NA
+104;36;El sistema debe minimizar el número de fallos y la probabilidad de que se de un fallo.;quality;Fiabilidad;No agreement;NA
+105;36;El sistema debe ser fácil de entender.;quality;Usabilidad;Capacidad de aprendizaje;US
+106;36;El sistema debe ser atractiva para el usuario.;quality;Usabilidad;Estética de la interfaz de usuario;LF
+107;36;El sistema debe tener una curva de aprendizaje leve.;quality;Usabilidad;Capacidad de aprendizaje;US
+108;36;El sistema debe soportar una creciente carga de trabajo, siendo sus recursos fácilmente escalables ante este suceso.;quality;Eficiencia_de_desempeño;No agreement;PE
+109;36;El sistema debe poder restaurarse a un estado deseado en caso de interrupción y fallo.;quality;Fiabilidad;Capacidad de recuperación;NA
