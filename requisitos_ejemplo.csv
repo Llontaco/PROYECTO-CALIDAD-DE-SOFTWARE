@@ -1,0 +1,138 @@
+requisito,categoria
+"El sistema debe cifrar todas las contraseñas usando SHA-256",Seguridad
+"La aplicación debe responder en menos de 2 segundos",Eficiencia/Performance
+"El sistema debe ser compatible con Chrome y Firefox",Compatibilidad
+"La interfaz debe ser intuitiva para usuarios novatos",Usabilidad
+"El sistema debe tener disponibilidad del 99.9%",Confiabilidad
+"Debe autenticar usuarios mediante OAuth 2.0",Seguridad
+"El código debe estar documentado según PEP8",Mantenibilidad
+"La aplicación debe funcionar en Windows y Linux",Portabilidad
+"Debe validar campos de entrada",Funcionalidad
+"Tiempo de carga menor a 3 segundos",Eficiencia/Performance
+"Debe integrarse con APIs REST",Compatibilidad
+"Mensajes de error claros",Usabilidad
+"Recuperación automática de fallos",Confiabilidad
+"Protección contra inyección SQL",Seguridad
+"Actualización sin downtime",Mantenibilidad
+"Funcionar en móviles y tablets",Portabilidad
+"Calcular impuestos correctamente",Funcionalidad
+"Búsqueda en menos de 1 segundo",Eficiencia/Performance
+"Exportar datos en formato CSV y Excel",Funcionalidad
+"Botones con etiquetas descriptivas",Usabilidad
+"El sistema debe usar protocolo HTTPS",Seguridad
+"Respuesta de la API menor a 500ms",Eficiencia/Performance
+"Compatible con bases de datos MySQL y PostgreSQL",Compatibilidad
+"Ayuda contextual en cada pantalla",Usabilidad
+"Backup automático cada 24 horas",Confiabilidad
+"Encriptar datos en reposo con AES-256",Seguridad
+"El código debe seguir Clean Code principles",Mantenibilidad
+"Instalación en un solo click",Portabilidad
+"Validar formato de email",Funcionalidad
+"La página debe cargar en 3 segundos",Eficiencia/Performance
+"Soportar internacionalización i18n",Compatibilidad
+"Navegación consistente en toda la app",Usabilidad
+"Tolerancia a fallos de red",Confiabilidad
+"Autenticación de dos factores",Seguridad
+"Testing unitario con cobertura del 80%",Mantenibilidad
+"Funcionar sin conexión a internet",Portabilidad
+"Generar reportes en PDF",Funcionalidad
+"Procesamiento batch de 10000 registros por minuto",Eficiencia/Performance
+"API REST con estándar OpenAPI",Compatibilidad
+"Mensajes de validación amigables",Usabilidad
+"Sistema de logs para auditoría",Confiabilidad
+"Control de acceso basado en roles RBAC",Seguridad
+"Documentación técnica actualizada",Mantenibilidad
+"Ejecutar en contenedores Docker",Portabilidad
+"Búsqueda avanzada con filtros",Funcionalidad
+"Cache para mejorar rendimiento",Eficiencia/Performance
+"Integración con servicios de terceros",Compatibilidad
+"Interfaz responsive para móviles",Usabilidad
+"Monitoreo de disponibilidad 24/7",Confiabilidad
+"Gestión segura de sesiones",Seguridad
+"Código modular y reutilizable",Mantenibilidad
+"Soporte multiplataforma desktop",Portabilidad
+"Notificaciones en tiempo real",Funcionalidad
+"Optimización de consultas SQL",Eficiencia/Performance
+"WebSockets para comunicación bidireccional",Compatibilidad
+"Tour guiado para nuevos usuarios",Usabilidad
+"Reintento automático en caso de fallo",Confiabilidad
+"Sanitización de entradas del usuario",Seguridad
+"Arquitectura hexagonal",Mantenibilidad
+"Empaquetado como aplicación standalone",Portabilidad
+"Paginación de resultados",Funcionalidad
+"Compresión de imágenes automática",Eficiencia/Performance
+"Versionado de API",Compatibilidad
+"Accesibilidad WCAG 2.1",Usabilidad
+"Alta disponibilidad con load balancing",Confiabilidad
+"Prevención de ataques XSS",Seguridad
+"Refactorización continua del código",Mantenibilidad
+"Instalador multiplataforma",Portabilidad
+requisito,categoria
+"El sistema debe cifrar todas las contraseñas usando SHA-256",Seguridad
+"La aplicación debe responder en menos de 2 segundos",Eficiencia/Performance
+"El sistema debe ser compatible con Chrome y Firefox",Compatibilidad
+"La interfaz debe ser intuitiva para usuarios novatos",Usabilidad
+"El sistema debe tener disponibilidad del 99.9%",Confiabilidad
+"Debe autenticar usuarios mediante OAuth 2.0",Seguridad
+"El código debe estar documentado según PEP8",Mantenibilidad
+"La aplicación debe funcionar en Windows y Linux",Portabilidad
+"Debe validar campos de entrada",Funcionalidad
+"Tiempo de carga menor a 3 segundos",Eficiencia/Performance
+"Debe integrarse con APIs REST",Compatibilidad
+"Mensajes de error claros",Usabilidad
+"Recuperación automática de fallos",Confiabilidad
+"Protección contra inyección SQL",Seguridad
+"Actualización sin downtime",Mantenibilidad
+"Funcionar en móviles y tablets",Portabilidad
+"Calcular impuestos correctamente",Funcionalidad
+"Búsqueda en menos de 1 segundo",Eficiencia/Performance
+"Exportar datos en formato CSV y Excel",Funcionalidad
+"Botones con etiquetas descriptivas",Usabilidad
+"El sistema debe usar protocolo HTTPS",Seguridad
+"Respuesta de la API menor a 500ms",Eficiencia/Performance
+"Compatible con bases de datos MySQL y PostgreSQL",Compatibilidad
+"Ayuda contextual en cada pantalla",Usabilidad
+"Backup automático cada 24 horas",Confiabilidad
+"Encriptar datos en reposo con AES-256",Seguridad
+"El código debe seguir Clean Code principles",Mantenibilidad
+"Instalación en un solo click",Portabilidad
+"Validar formato de email",Funcionalidad
+"La página debe cargar en 3 segundos",Eficiencia/Performance
+"Soportar internacionalización i18n",Compatibilidad
+"Navegación consistente en toda la app",Usabilidad
+"Tolerancia a fallos de red",Confiabilidad
+"Autenticación de dos factores",Seguridad
+"Testing unitario con cobertura del 80%",Mantenibilidad
+"Funcionar sin conexión a internet",Portabilidad
+"Generar reportes en PDF",Funcionalidad
+"Procesamiento batch de 10000 registros por minuto",Eficiencia/Performance
+"API REST con estándar OpenAPI",Compatibilidad
+"Mensajes de validación amigables",Usabilidad
+"Sistema de logs para auditoría",Confiabilidad
+"Control de acceso basado en roles RBAC",Seguridad
+"Documentación técnica actualizada",Mantenibilidad
+"Ejecutar en contenedores Docker",Portabilidad
+"Búsqueda avanzada con filtros",Funcionalidad
+"Cache para mejorar rendimiento",Eficiencia/Performance
+"Integración con servicios de terceros",Compatibilidad
+"Interfaz responsive para móviles",Usabilidad
+"Monitoreo de disponibilidad 24/7",Confiabilidad
+"Gestión segura de sesiones",Seguridad
+"Código modular y reutilizable",Mantenibilidad
+"Soporte multiplataforma desktop",Portabilidad
+"Notificaciones en tiempo real",Funcionalidad
+"Optimización de consultas SQL",Eficiencia/Performance
+"WebSockets para comunicación bidireccional",Compatibilidad
+"Tour guiado para nuevos usuarios",Usabilidad
+"Reintento automático en caso de fallo",Confiabilidad
+"Sanitización de entradas del usuario",Seguridad
+"Arquitectura hexagonal",Mantenibilidad
+"Empaquetado como aplicación standalone",Portabilidad
+"Paginación de resultados",Funcionalidad
+"Compresión de imágenes automática",Eficiencia/Performance
+"Versionado de API",Compatibilidad
+"Accesibilidad WCAG 2.1",Usabilidad
+"Alta disponibilidad con load balancing",Confiabilidad
+"Prevención de ataques XSS",Seguridad
+"Refactorización continua del código",Mantenibilidad
+"Instalador multiplataforma",Portabilidad
