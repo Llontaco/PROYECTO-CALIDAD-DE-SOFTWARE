@@ -136,3 +136,103 @@ requisito,categoria
 "Prevención de ataques XSS",Seguridad
 "Refactorización continua del código",Mantenibilidad
 "Instalador multiplataforma",Portabilidad
+"El sistema debe realizar copias de seguridad de los datos cada 12 horas", Confiabilidad
+"El sistema debe permitir la restauración de datos en menos de 30 minutos", Confiabilidad
+"El sistema debe generar informes en tiempo real", Funcionalidad
+"La interfaz debe ser accesible para personas con discapacidad visual", Usabilidad
+"El sistema debe permitir la autenticación biométrica", Seguridad
+"El sistema debe manejar transacciones de manera atómica", Confiabilidad
+"El sistema debe soportar despliegue continuo", Mantenibilidad
+"El sistema debe tener soporte para bases de datos NoSQL", Compatibilidad
+"El sistema debe realizar validación de datos en tiempo real", Funcionalidad
+"La interfaz debe tener un diseño adaptable al idioma del usuario", Usabilidad
+"El sistema debe ser compatible con Android e iOS", Portabilidad
+"Debe permitir la importación de datos desde archivos JSON", Funcionalidad
+"La aplicación debe funcionar correctamente en conexiones de baja velocidad", Eficiencia/Performance
+"El sistema debe enviar notificaciones push a los usuarios", Funcionalidad
+"El sistema debe permitir la integración con plataformas de pago como PayPal y Stripe", Compatibilidad
+"El sistema debe implementar medidas de protección contra ataques DDoS", Seguridad
+"La aplicación debe ser fácil de instalar con pocos pasos", Portabilidad
+"El sistema debe permitir la gestión de usuarios a través de una interfaz web", Funcionalidad
+"El código debe estar cubierto por pruebas automatizadas", Mantenibilidad
+"El sistema debe funcionar sin necesidad de instalación en máquinas locales", Portabilidad
+"El sistema debe permitir la personalización del tema visual", Usabilidad
+"El sistema debe tener una base de datos que soporte transacciones distribuidas", Confiabilidad
+"El sistema debe actualizarse sin requerir reinicio de los servidores", Mantenibilidad
+"La interfaz debe soportar cambios dinámicos en la estructura de la aplicación", Usabilidad
+"El sistema debe ser compatible con la autenticación LDAP", Seguridad
+"Debe permitir la exportación de datos a formato PDF y DOCX", Funcionalidad
+"El sistema debe tener compatibilidad con la versión más reciente de Node.js", Compatibilidad
+"La aplicación debe permitir la recuperación de contraseñas de forma segura", Seguridad
+"El sistema debe implementar un motor de búsqueda de texto completo", Funcionalidad
+"La aplicación debe permitir la personalización del dashboard", Usabilidad
+"El sistema debe garantizar la integridad de los datos mediante validaciones automáticas", Confiabilidad
+"El sistema debe tener una arquitectura basada en microservicios", Mantenibilidad
+"El sistema debe ofrecer soporte para multimonitor", Usabilidad
+"El sistema debe ofrecer un log de actividades para los administradores", Confiabilidad
+"El sistema debe ser compatible con sistemas operativos de 64 bits", Compatibilidad
+"La aplicación debe permitir la configuración de roles y permisos de acceso", Seguridad
+"El sistema debe ofrecer un panel de administración para gestionar todos los usuarios", Funcionalidad
+"El sistema debe permitir la gestión de recursos en tiempo real", Confiabilidad
+"El sistema debe ser capaz de integrarse con sistemas ERP", Compatibilidad
+"El sistema debe ofrecer soporte para diferentes formatos de fecha y hora", Funcionalidad
+"El sistema debe permitir la visualización de datos en formato gráfico interactivo", Usabilidad
+"El sistema debe ser capaz de generar informes detallados por usuario", Funcionalidad
+"El sistema debe ser capaz de realizar auditorías periódicas automáticamente", Confibilidad
+"El sistema debe permitir la autenticación mediante tarjetas inteligentes", Seguridad
+"El sistema debe ser accesible en todos los navegadores populares", Compatibilidad
+"La aplicación debe permitir la personalización de notificaciones", Usabilidad
+"El sistema debe soportar balanceo de carga para mayor disponibilidad", Confiabilidad
+"El sistema debe ser escalable horizontalmente", Mantenibilidad
+"El sistema debe ofrecer un entorno seguro para pruebas de integración", Seguridad
+"La interfaz debe permitir la personalización de los campos del formulario", Usabilidad
+"El sistema debe ser compatible con la versión más reciente de PostgreSQL", Compatibilidad
+"El sistema debe permitir la integración con Google Analytics", Funcionalidad
+"El sistema debe permitir la importación de archivos CSV", Funcionalidad
+"El sistema debe soportar autenticación mediante tarjetas RFID", Seguridad
+"El sistema debe realizar validaciones de seguridad en tiempo real", Seguridad
+"La aplicación debe ser fácilmente extensible mediante módulos adicionales", Mantenibilidad
+"El sistema debe garantizar la disponibilidad de los datos sin interrupciones", Confiabilidad
+"El sistema debe permitir la personalización de los correos electrónicos enviados", Usabilidad
+"El sistema debe permitir el acceso a los registros de cambios de cada usuario", Confiabilidad
+"El sistema debe incluir una funcionalidad de backup incremental", Confiabilidad
+"El sistema debe poder gestionar diferentes monedas en transacciones", Funcionalidad
+"La aplicación debe permitir la integración con Google Drive", Compatibilidad
+"El sistema debe ofrecer un sistema de reportes configurables por el usuario", Funcionalidad
+"El sistema debe tener un sistema de alertas configurables", Funcionalidad
+"El sistema debe permitir la creación de un log de acceso para auditoría", Confiabilidad
+"El sistema debe ofrecer soporte para gestión de productos y stock", Funcionalidad
+"El sistema debe permitir la personalización de la página de inicio", Usabilidad
+"El sistema debe ofrecer la posibilidad de reintentos automáticos en procesos fallidos", Confiabilidad
+"El sistema debe permitir la exportación de gráficos a formatos de imagen", Funcionalidad
+"La aplicación debe tener un sistema de gestión de eventos programados", Funcionalidad
+"El sistema debe permitir la gestión de múltiples proyectos simultáneamente", Funcionalidad
+"El sistema debe soportar el acceso basado en direcciones IP", Seguridad
+"El sistema debe permitir la integración con redes sociales", Compatibilidad
+"El sistema debe proporcionar alertas ante la detección de comportamientos sospechosos", Seguridad
+"El sistema debe ser compatible con sistemas de virtualización como VMware", Compatibilidad
+"El sistema debe permitir la integración con soluciones de CRM", Compatibilidad
+"El sistema debe incluir un sistema de gestión de pagos recurrentes", Funcionalidad
+"El sistema debe tener un sistema de gestión de inventarios automatizado", Funcionalidad
+"El sistema debe soportar el procesamiento de imágenes en alta resolución", Eficiencia/Performance
+"La interfaz debe ofrecer soporte para varios idiomas", Usabilidad
+"El sistema debe ser capaz de realizar backups en servidores remotos", Confiabilidad
+"El sistema debe ofrecer un sistema de notificaciones en caso de error de servidor", Confiabilidad
+"El sistema debe permitir la integración con soluciones de marketing por correo electrónico", Compatibilidad
+"El sistema debe permitir la gestión de pagos por múltiples métodos", Funcionalidad
+"El sistema debe soportar la compresión de archivos en múltiples formatos", Eficiencia/Performance
+"El sistema debe permitir la integración con servicios de almacenamiento en la nube", Compatibilidad
+"El sistema debe realizar un control de versiones de los documentos generados", Funcionalidad
+"El sistema debe permitir la personalización del tiempo de expiración de las sesiones", Seguridad
+"El sistema debe permitir la creación de informes por parte del usuario", Funcionalidad
+"El sistema debe ofrecer soporte para configuraciones avanzadas de red", Compatibilidad
+"El sistema debe permitir el control de acceso por grupos de usuarios", Seguridad
+"El sistema debe soportar la validación de números de teléfono", Funcionalidad
+"El sistema debe permitir la integración con Google Maps", Compatibilidad
+"El sistema debe permitir la gestión de equipos de trabajo", Funcionalidad
+"El sistema debe ser capaz de generar reportes por rango de fechas", Funcionalidad
+"El sistema debe permitir la integración con soluciones de pago móvil", Compatibilidad
+"El sistema debe soportar la reactivación de cuentas inactivas", Funcionalidad
+"El sistema debe tener un sistema de gestión de órdenes de compra", Funcionalidad
+"El sistema debe ser capaz de generar alertas sobre cambios en los permisos de acceso", Seguridad
+"El sistema debe soportar la autenticación mediante claves públicas y privadas", Seguridad
